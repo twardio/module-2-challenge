@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: rgb(25, 136, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*nav bar section*/
+
+header {
+    background-color: rgb(224, 126, 14);
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 400px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+nav a {
+    color: rgb(42, 17, 151);
+    text-decoration: none;
+
+}
+
+/*profile section*/
+
+.profile {
+    width: 100%;
+    margin: auto;
+    background:rgb(255, 255, 255);
+    display: flex; 
+    justify-content: center;
+}
+
+.profile-pic {
+    height:375px;
+    width: 400px; 
+    border-radius: 100%;
+    padding: 50px;
+}
+
+.profile div {
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.profile-text {
+    height:375px;
+    width: 400px; 
+    border-radius: 390px;
+    padding: 50px;
+    display: flex
+    justify-content: center; 
+}
+
+/*app section*/
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.app-section div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color:  rgb(224, 126, 14);
+    width: 100%;
+    height: 100px;
+    display: inline-block
+    text-align: center
+
+}
+
+.footer-text { 
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
